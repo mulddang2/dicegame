@@ -1,9 +1,11 @@
-import Dice from "../Dice";
+import HandIcon from "./HandIcon";
 
 function App() {
   return (
     <>
-      <Dice color='red' num={3}/>
+      <HandIcon value='rock' />
+      <HandIcon value='scissor' />
+      <HandIcon value='paper' />
     </>
   );
 }
