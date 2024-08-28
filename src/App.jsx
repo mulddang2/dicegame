@@ -1,9 +1,11 @@
+import HandIcon from "./HandIcon";
+
 function App() {
   return (
-  <>
-    <h1>Hello, world!</h1>
-  </>
-);
+    <>
+      <HandIcon />
+    </>
+  );
 }
 
 export default App;
